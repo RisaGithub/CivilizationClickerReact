@@ -1,0 +1,63 @@
+.home-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.home-container h1 {
+  color: #333;
+}
+
+.home-container p {
+  font-size: 1.2em;
+}
+
+.home-container button {
+    padding: 15px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: violet;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    height: min-content;
+    align-self: center;
+}
+
+.home-container .group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-container .resource {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.home-container .groups {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.home-container .-bg-food {
+    background-color: rgb(240, 203, 20);
+}
+
+.home-container .-bg-wood {
+    background-color: rgb(130, 89, 5);
+}
+
+.home-container .-bg-stone {
+    background-color: gray;
+}
+
+.home-container .-bg-blue {
+    background-color: rgb(2, 218, 218);
+}
+
+.home-container .-bg-green {
+    background-color: rgb(28, 221, 10);
+}
